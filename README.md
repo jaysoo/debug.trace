@@ -41,6 +41,14 @@ f(10) // prints "before multiply 9", "result 18", then returns 18
 
 ### Usage
 
+Install module:
+
+```
+npm install debug.trace
+```
+
+Use in code:
+
 ```js
 const trace = require('trace')
 
