@@ -39,6 +39,23 @@ const f = R.compose(trace('result'), R.multiply(2), trace('before multiply'), R.
 f(10) // prints "before multiply 9", "result 18", then returns 18
 ``` 
 
+### Usage
+
+```js
+const trace = require('trace')
+
+const x = 1
+trace('what is x?')(1) // prints 'what is x? 1'
+```
+
+You can also import to globals automatically.
+
+```js
+require('trace/global')
+
+trace(...)
+```
+
 ### API
 
 `trace :: String -> A -> A`

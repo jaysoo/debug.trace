@@ -1,8 +1,13 @@
 {
   "name": "debug.trace",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Debugging tool that compliments FP-style code",
   "main": "index.js",
+  "file": [
+    "index.js",
+    "globals.js",
+    "README.md"
+  ],
   "scripts": {
     "test": "tape test.js"
   },
