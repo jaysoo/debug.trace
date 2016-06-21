@@ -1,0 +1,23 @@
+{
+  "name": "debug.trace",
+  "version": "1.0.0",
+  "description": "Debugging tool that compliments FP-style code",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "keywords": [
+    "trace",
+    "deubg",
+    "debugging",
+    "utility",
+    "functional"
+  ],
+  "author": "Jack Hsu <jack.hsu@gmail.com> (http://jaysoo.ca/)",
+  "license": "ISC",
+  "devDependencies": {
+    "ramda": "0.21.0",
+    "sinon": "1.17.4",
+    "tape": "4.6.0"
+  }
+}
